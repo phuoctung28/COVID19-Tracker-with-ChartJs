@@ -1,0 +1,44 @@
+:root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  }*{box-sizing:border-box;}input,button,textarea{border:0;outline:none;}
+.chart-container {
+    display: flex;
+}
+#country-btn {
+    padding: 1rem 2rem;
+    margin-left: 2rem;
+    border: 0;
+    color: white;
+    background-color: #FFCD56;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: padding 0.25s linear;
+    text-align: center;
+}
+#country-btn:hover {
+    padding-right: 3rem;
+}
+
+#country-btn i {
+    transition: 0.25s ease;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(-50%); 
+}
+#country-btn:hover i {
+    transform: translateY(-50%);
+    opacity: 1;
+}
+
+#country-inp {
+    border: 1px solid darkblue;
+    border-radius: 8px;
+}
